@@ -1,0 +1,273 @@
+@media(max-width:1200px) {
+    .header-fixed {
+        padding: 18px 10px 17px;
+    }
+
+    .hero {
+        padding: 218px 10px 227px 10px;
+    }
+    
+    .about {
+        padding: 100px 10px;
+    }
+
+    .about-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .store {
+        padding: 100px 10px;
+    }
+    
+    .news {
+        padding: 100px 10px 200px;
+    }
+
+    .subcribe {
+        padding: 200px 10px 100px;
+    }
+
+    .subcribe-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        padding: 100px 10px 10px;
+    }
+
+    .footer-wrapper {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media(max-width:980px) {
+    .nav {
+        position: absolute;
+        z-index: 2;
+        left: 100%;
+        right: 0%;
+        top: 70px;
+        background: var(--bg-white);
+        height: 100vh;
+        flex-direction: column;
+        align-items: flex-start;
+        overflow-x: hidden;
+        transition: 0.3s linear;
+    }
+
+    .nav.active{
+        left: 0;
+
+    }
+
+    .header-btn {
+        margin-left: 30px;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .burger{
+        display: block;
+        width: 60px;
+        height: 40px;
+        background: url(../img/burger.svg) no-repeat center;
+        transition: 0.3s linear;
+        transform: rotate(0deg);
+    }
+
+    .burger.active{
+        background: url(../img/close.svg) no-repeat center;
+        transform: rotate(180deg);
+
+    }
+
+    .news-subtitle {
+        text-align: center;
+        display: block;
+    }
+
+    .news-title {
+        text-align: center;
+    }
+
+    .news-text {
+        margin: 6px auto 20px;
+    }
+
+    .subcribe {
+        padding: 100px 10px 100px;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+@media(max-width:768px){
+    .hero {
+        background-position: left 40% center;
+    }
+
+    .ocean ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        background: transparent;
+        gap: 10px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .ocean {
+        padding: 512px 10px 40px 10px;
+    }
+
+    .ocean li {
+        background: #292C32;
+        border-radius: 16px;
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    .footer-block {
+        width: 100%;
+    }
+}
+
+@media(max-width:590px){
+    .hero-text {
+        width: 100%;
+    }
+
+    .settings-text {
+        width: 100%;
+    }
+
+    .store-text {
+        width: 100%;
+    }
+
+    .shop {
+        padding: 100px 10px;
+    }
+
+    .shop-text {
+        width: 100%;
+    }
+
+    .news-text {
+        width: 100%;
+    }
+
+    .news-block {
+        width: 100%;
+    }
+
+    .news-block-title {
+        width: 90%;
+        height: auto;
+    }
+
+    .subcribe-img {
+        width: 100%;
+    }
+
+    .subcribe-content {
+        width: 100%;
+    }
+
+    .news {
+        padding: 100px 10px 100px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .footer-form {
+        width: 100%;
+    }
+
+    .footer-btn {
+        position: relative;
+        width: 100%;
+        top: auto;
+        transform: translateY(0);
+        right: auto;
+        margin-top: 30px;
+        background: var(--color-secondary);
+        padding: 15px 9px;
+    }
+
+}
+
+@media(max-width:450px){
+    .header{
+        height: 136px;
+
+    }
+    .header-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .burger {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        z-index: 5;
+     }
+    
+     .nav {
+        top: 0;
+    }
+
+    .header-link {
+        padding-left: 30px;
+    }
+
+    .header-link span {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .hero {
+        padding: 118px 10px 127px 10px;
+    }
+
+    .hero-title {
+        width: 100%;
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .hero-text {
+        font-size: 20px;
+    }
+
+    .settings {
+        padding: 99px 0 99px 0;
+    }
+
+    .footer-text {
+        width: 100%;
+    }
+}
+
+@media(max-width:400px){
+
+    .store-block{
+        width: 100%;
+    }
+    
+}
